@@ -1,6 +1,8 @@
 module github.com/fdaines/arch-go
 
-go 1.21
+go 1.22.0
+
+toolchain go1.23.0
 
 require (
 	github.com/agiledragon/gomonkey/v2 v2.11.0
@@ -9,7 +11,7 @@ require (
 	github.com/spf13/cobra v1.8.1
 	github.com/spf13/viper v1.18.2
 	github.com/stretchr/testify v1.9.0
-	golang.org/x/mod v0.12.0
+	golang.org/x/mod v0.21.0
 	golang.org/x/tools v0.13.0
 	gopkg.in/yaml.v2 v2.4.0
 )
