@@ -17,9 +17,13 @@
     }
   ],
   "configMigration": true,
-  "baseBranches": ["master"],
+  "baseBranchPatterns": [
+    "master"
+  ],
   "assigneesFromCodeOwners": true,
-  "addLabels": ["dependency"],
+  "addLabels": [
+    "dependency"
+  ],
   "automerge": false,
   "commitMessageAction": "Update"
 }
